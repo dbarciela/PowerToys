@@ -35,7 +35,7 @@ namespace Microsoft.PowerToys.Settings.UI.Library
         public static HotkeySettings DefaultHotKeyReconnect => new HotkeySettings(true, true, true, false, 0x52);
 
         [CmdConfigureIgnore]
-        public static HotkeySettings DefaultHotKeyToggleEasyMouse => new HotkeySettings(true, true, true, false, 0x45);
+        public static HotkeySettings DefaultHotKeyToggleEasyMouse => new HotkeySettings(true, true, true, false, 0x4D);
 
         [CmdConfigureIgnore]
         public StringProperty SecurityKey { get; set; }
